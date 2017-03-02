@@ -14,7 +14,7 @@ public class Activity_Spinner1 extends AppCompatActivity {
         setContentView(R.layout.activity__spinner1);
     }
     public void switch_to_activity2(View v) {
-        Intent newActivity = new Intent(this, Activity_Spinner2.class);
+        Intent newActivity = new Intent(this, activity_spinner3.class);
         startActivity(newActivity);
     }
 }
